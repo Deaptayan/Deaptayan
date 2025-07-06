@@ -1,7 +1,7 @@
 <h1 align="center">Hi 👋, I'm Deaptayan Bondopadhay</h1>
 <h3 align="center">A passionate developer from India</h3>
 
-- 🌱 I’m currently learning **React, C++**
+- 🌱 I’m currently learning **Python, C++**
 
 - 📫 How to reach me **deaptayanbondopadhay@gmail.com**
 
