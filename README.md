@@ -1,6 +1,12 @@
 ![header](https://capsule-render.vercel.app/api?type=waving&color=0:080d14,50:0d1f38,100:0f3d2e&height=110&section=header)
 
-[![Typing SVG](https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=700&size=24&duration=3000&pause=900&color=38BDF8&center=true&vCenter=true&multiline=true&width=650&height=68&lines=Deaptayan+Bondopadhay;Developer+%7C+Firmware+Engineer+%7C+Maker)](https://github.com/Deaptayan)
+# Deaptayan Bondopadhay
+
+![Subtitle](https://img.shields.io/badge/Developer-%230d1f38?style=flat-square&logoColor=white)
+![Subtitle](https://img.shields.io/badge/Firmware%20Engineer-%230f3d2e?style=flat-square&logoColor=white)
+![Subtitle](https://img.shields.io/badge/Open%20Source%20Contributor-%230d1f38?style=flat-square&logoColor=white)
+
+> Building software, firmware, and hardware — autonomous drones, CNC systems, robotics, IoT, and embedded systems.
 
 ![BCA](https://img.shields.io/badge/BCA_Student-0d1f38?style=flat-square&logo=graduation-cap&logoColor=38bdf8)
 ![ArduPilot](https://img.shields.io/badge/ArduPilot_Contributor-0d1f38?style=flat-square&logo=github&logoColor=4ade80)
@@ -13,19 +19,40 @@
 
 ```yaml
 name:     "Deaptayan Bondopadhay"
-role:     "Developer · Firmware Engineer · Maker"
-focus:
-  - "Autonomous Drones  (ArduPilot / STM32H743)"
-  - "CNC Firmware & CAM (PlotterNC Ecosystem)"
-  - "Embedded Systems   (ESP32 / STM32 / IoT)"
-  - "Robotics & 3D Printing"
-learning: [ C++, Python, CAM, Embedded Linux ]
+degree:   "BCA Student"
+learning: [ C++, Python, Embedded Systems, CNC Software Development ]
+interests:
+  - Robotics · Drones · ESP32 · STM32 · IoT · Automation
+  - 3D Printing · Product Development
+funfact:  >
+  Built autonomous drones, ported custom hardware to ArduPilot,
+  and currently developing an open-source CNC plotting ecosystem.
 contact:  "deaptayanbondopadhay@gmail.com"
 ```
 
 ---
 
-### `> active_projects`
+### `> current_projects`
+
+**🚀 PlotterNC Studio** — `Open-Source CAM Software`
+
+> Designed for pen plotters and lightweight CNC machines.
+
+| Feature | Status |
+|---------|--------|
+| SVG Import | ✅ Done |
+| Toolpath Generation | ✅ Done |
+| Path Optimization | ✅ Done |
+| G-code Export | ✅ Done |
+| Workspace Preview | ✅ Done |
+
+**🔩 PlotterNC** — `CNC Firmware · Open Source`
+
+| Component | Status |
+|-----------|--------|
+| PlotterNC Firmware core | 🔄 Active |
+| Hardware Abstraction Layer | 🔄 Active |
+| Multi-board support | 🔄 Active |
 
 **🚁 Autonomous Drone Platform** — `ArduPilot · STM32H743VIT6`
 
@@ -35,14 +62,6 @@ contact:  "deaptayanbondopadhay@gmail.com"
 | Custom hardware definitions | ✅ Done |
 | Autonomous flight modes | 🔄 In Progress |
 | Ground control integration | 🔄 In Progress |
-
-**🔩 PlotterNC Ecosystem** — `CAM Studio · Firmware · Open Source`
-
-| Component | Status |
-|-----------|--------|
-| PlotterNC Firmware | 🔄 Active |
-| PlotterNC Studio (CAM) | 🔄 Active |
-| Hardware Abstraction Layer | 🔄 Active |
 
 ---
 
@@ -66,6 +85,13 @@ contact:  "deaptayanbondopadhay@gmail.com"
 ![Linux](https://img.shields.io/badge/Linux-0d1f38?style=flat-square&logo=linux&logoColor=94a3b8)
 ![VSCode](https://img.shields.io/badge/VS_Code-0d1f38?style=flat-square&logo=visualstudiocode&logoColor=38bdf8)
 
+**Interests**
+
+![Robotics](https://img.shields.io/badge/Robotics-0d1f38?style=flat-square&logoColor=4ade80)
+![IoT](https://img.shields.io/badge/IoT-0d1f38?style=flat-square&logoColor=4ade80)
+![3D Printing](https://img.shields.io/badge/3D_Printing-0d1f38?style=flat-square&logoColor=38bdf8)
+![Automation](https://img.shields.io/badge/Automation-0d1f38?style=flat-square&logoColor=38bdf8)
+
 ---
 
 ### `> github_activity`
@@ -73,6 +99,7 @@ contact:  "deaptayanbondopadhay@gmail.com"
 ![Activity Graph](https://github-readme-activity-graph.vercel.app/graph?username=Deaptayan&bg_color=080d14&color=38bdf8&line=4ade80&point=4ade80&area=true&area_color=0d1f38&hide_border=true&radius=6)
 
 ![GitHub Stats](https://github-readme-stats.vercel.app/api?username=Deaptayan&show_icons=true&theme=transparent&title_color=38bdf8&icon_color=4ade80&text_color=94a3b8&border_color=1e3a5f&rank_icon=github&count_private=true)
+![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=Deaptayan&layout=compact&theme=transparent&title_color=38bdf8&text_color=94a3b8&border_color=1e3a5f)
 
 ---
 
