@@ -1,387 +1,187 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Deaptayan Bondopadhay - Profile HUD</title>
-    <style>
-        :root {
-            --bg-black: #0a0b0d;
-            --panel-bg: #10141b;
-            --neon-blue: #00d2ff;
-            --neon-green: #00ff66;
-            --text-gray: #8b949e;
-            --text-light: #c9d1d9;
-            --border-color: #21262d;
-        }
+<h1 align="center">Hi 👋, I'm Deaptayan Bondopadhay</h1>
 
-        * {
-            box-sizing: border-box;
-            margin: 0;
-            padding: 0;
-            font-family: 'Courier New', Courier, monospace;
-        }
+<h3 align="center">
+Developer • Embedded Systems Enthusiast • Open Source Contributor
+</h3>
 
-        body {
-            background-color: var(--bg-black);
-            color: var(--text-light);
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            min-height: 100vh;
-            padding: 20px;
-            overflow-x: hidden;
-        }
+<p align="center">
+Building software, firmware, and hardware projects with a focus on autonomous drones, CNC systems, robotics, IoT, and embedded systems.
+</p>
 
-        /* Drone/CNC Grid Background Effect */
-        .hud-overlay {
-            position: fixed;
-            top: 0;
-            left: 0;
-            width: 100%;
-            height: 100%;
-            background-image: 
-                linear-gradient(rgba(0, 210, 255, 0.03) 1px, transparent 1px),
-                linear-gradient(90deg, rgba(0, 210, 255, 0.03) 1px, transparent 1px);
-            background-size: 20px 20px;
-            pointer-events: none;
-            z-index: 1;
-        }
+---
 
-        /* CNC Laser Scanning Line Animation */
-        .hud-overlay::after {
-            content: '';
-            position: absolute;
-            width: 100%;
-            height: 2px;
-            background: linear-gradient(90deg, transparent, var(--neon-green), transparent);
-            top: 0;
-            animation: cnc-scan 6s linear infinite;
-        }
+## 🚀 About Me
 
-        @keyframes cnc-scan {
-            0% { top: 0%; opacity: 0; }
-            5% { opacity: 1; }
-            95% { opacity: 1; }
-            100% { top: 100%; opacity: 0; }
-        }
+* 🎓 BCA Student
+* 🌱 Currently learning **C++, Python, Embedded Systems, and CNC Software Development**
+* 🔭 Currently developing **PlotterNC Studio** and **PlotterNC**, an open-source CAM and firmware ecosystem for CNC plotters
+* 🚁 Working on a custom **Autonomous Drone Platform** based on ArduPilot
+* 🤖 Interested in **Robotics, Drones, ESP32, STM32, IoT, and Automation**
+* 🖨️ Enthusiastic about **3D Printing and Product Development**
+* 💡 Love turning ideas into real hardware and software projects
+* 📫 Reach me at: **[deaptayanbondopadhay@gmail.com](mailto:deaptayanbondopadhay@gmail.com)**
+* ⚡ Fun fact: I've built autonomous drones, ported custom hardware to ArduPilot, and am currently developing an open-source CNC plotting ecosystem.
 
-        /* Core Container */
-        .profile-container {
-            position: relative;
-            z-index: 2;
-            width: 100%;
-            max-width: 950px;
-            background: var(--panel-bg);
-            border: 1px solid var(--border-color);
-            border-radius: 4px;
-            padding: 20px;
-            box-shadow: 0 0 20px rgba(0, 0, 0, 0.7);
-        }
+---
 
-        /* UI Header */
-        .hud-header {
-            display: flex;
-            justify-content: space-between;
-            align-items: flex-start;
-            border-bottom: 2px dashed var(--border-color);
-            padding-bottom: 15px;
-            margin-bottom: 15px;
-        }
+## 🛠️ Current Projects
 
-        .identity h1 {
-            font-size: 1.6rem;
-            color: #fff;
-            letter-spacing: 1px;
-        }
+### 🚀 PlotterNC Studio
 
-        .identity h1 span {
-            color: var(--neon-blue);
-        }
+Open-source CAM software designed for pen plotters and lightweight CNC machines.
 
-        .identity h3 {
-            font-size: 0.9rem;
-            color: var(--neon-green);
-            margin-top: 4px;
-            font-weight: normal;
-        }
+**Features**
 
-        .bio {
-            font-size: 0.8rem;
-            color: var(--text-gray);
-            margin-top: 8px;
-            max-width: 650px;
-            line-height: 1.4;
-        }
+* SVG Import
+* Toolpath Generation
+* Path Optimization
+* G-code Export
+* Workspace Preview
+* AGPL-3.0 Licensed
 
-        .telemetry-status {
-            text-align: right;
-            font-size: 0.75rem;
-            color: var(--neon-blue);
-        }
+---
 
-        .status-pulse {
-            display: inline-block;
-            width: 8px;
-            height: 8px;
-            background-color: var(--neon-green);
-            border-radius: 50%;
-            margin-right: 5px;
-            animation: pulse 1.5s infinite;
-        }
+### ✏️ PlotterNC
 
-        @keyframes pulse {
-            0% { box-shadow: 0 0 0 0 rgba(0, 255, 102, 0.7); }
-            70% { box-shadow: 0 0 0 6px rgba(0, 255, 102, 0); }
-            100% { box-shadow: 0 0 0 0 rgba(0, 255, 102, 0); }
-        }
+An open-source plotting and CNC ecosystem featuring:
 
-        /* Compact Dashboard Columns */
-        .dashboard-grid {
-            display: grid;
-            grid-template-columns: 1fr 1.3fr;
-            gap: 15px;
-        }
+* PlotterNC Firmware
+* PlotterNC Studio (Web CAM)
+* SVG Processing
+* Toolpath Optimization
+* G-code Generation
+* ESP32-Based Motion Control
+* Web-Based Machine Control
+* Pen Plotter & CNC Support
 
-        .panel {
-            background: rgba(10, 11, 13, 0.6);
-            border: 1px solid var(--border-color);
-            padding: 12px;
-            position: relative;
-            transition: border-color 0.3s ease, box-shadow 0.3s ease;
-        }
+---
 
-        /* Robotic Target Lock Hover Effect */
-        .panel:hover {
-            border-color: var(--neon-blue);
-            box-shadow: 0 0 8px rgba(0, 210, 255, 0.2);
-        }
+### 🚁 Autonomous Drone Platform
 
-        .panel-title {
-            font-size: 0.85rem;
-            text-transform: uppercase;
-            color: var(--neon-blue);
-            margin-bottom: 10px;
-            display: flex;
-            justify-content: space-between;
-            border-bottom: 1px solid var(--border-color);
-            padding-bottom: 4px;
-        }
+Developing a custom autonomous drone based on ArduPilot.
 
-        /* Lists and Details */
-        .panel-list {
-            list-style: none;
-        }
+**Work Completed**
 
-        .panel-list li {
-            font-size: 0.8rem;
-            margin-bottom: 6px;
-            line-height: 1.4;
-            display: flex;
-            align-items: flex-start;
-        }
+* Ported the DeveBox STM32H743VIT6 board to ArduPilot
+* Created custom hardware definitions
+* Built and compiled custom firmware
+* Flight controller configuration and testing
 
-        .panel-list li::before {
-            content: "⌖";
-            color: var(--neon-green);
-            margin-right: 8px;
-        }
+**Current Focus**
 
-        .panel-list li strong {
-            color: #fff;
-        }
+* Autonomous flight capabilities
+* Sensor integration and calibration
+* Navigation and telemetry systems
+* Flight-control optimization
 
-        /* Tech Badges / Vectors tags */
-        .tech-tags {
-            display: flex;
-            flex-wrap: wrap;
-            gap: 6px;
-            margin-top: 5px;
-        }
+**Technologies**
 
-        .tag {
-            font-size: 0.7rem;
-            background: rgba(0, 210, 255, 0.08);
-            border: 1px solid rgba(0, 210, 255, 0.3);
-            color: var(--neon-blue);
-            padding: 2px 6px;
-            border-radius: 2px;
-        }
+* ArduPilot
+* STM32H743
+* ESP32
+* MAVLink
+* QGroundControl
+* GPS/GNSS
+* IMU Sensors
 
-        .tag.green {
-            background: rgba(0, 255, 102, 0.08);
-            border: 1px solid rgba(0, 255, 102, 0.3);
-            color: var(--neon-green);
-        }
+---
 
-        /* Project UI Card Design */
-        .project-card {
-            border-left: 2px solid var(--neon-blue);
-            background: rgba(255,255,255,0.02);
-            padding: 8px;
-            margin-bottom: 10px;
-        }
+### 🤖 Embedded Systems & Robotics
 
-        .project-card:last-child {
-            margin-bottom: 0;
-        }
+Projects involving:
 
-        .project-title {
-            font-size: 0.85rem;
-            color: #fff;
-            display: flex;
-            justify-content: space-between;
-        }
+* ESP32-Based Controllers
+* ESP-NOW Communication Systems
+* Autonomous Robotics
+* Sensor Integration
+* Wireless Control Systems
+* IoT Development
 
-        .project-title span {
-            font-size: 0.7rem;
-            color: var(--neon-green);
-        }
+---
 
-        .project-desc {
-            font-size: 0.75rem;
-            color: var(--text-gray);
-            margin: 4px 0;
-        }
+### 🖨️ 3D Printing & Prototyping
 
-        /* Footer/System Info */
-        .hud-footer {
-            margin-top: 15px;
-            border-top: 1px solid var(--border-color);
-            padding-top: 10px;
-            display: flex;
-            justify-content: space-between;
-            font-size: 0.7rem;
-            color: var(--text-gray);
-        }
+* Functional Mechanical Designs
+* Rapid Prototyping
+* Custom Electronics Enclosures
+* Product Development
+* Hardware Testing & Iteration
 
-        .hud-footer a {
-            color: var(--neon-blue);
-            text-decoration: none;
-        }
+---
 
-        .hud-footer a:hover {
-            text-decoration: underline;
-        }
+## 💻 Tech Stack
 
-        /* Responsive scaling */
-        @media (max-width: 768px) {
-            .dashboard-grid {
-                grid-template-columns: 1fr;
-            }
-            .hud-header {
-                flex-direction: column;
-                gap: 10px;
-            }
-            .telemetry-status {
-                text-align: left;
-            }
-        }
-    </style>
-</head>
-<body>
+### Languages
 
-    <div class="hud-overlay"></div>
+<p>
+<img src="https://skillicons.dev/icons?i=c,cpp,python,js,html,css" />
+</p>
 
-    <div class="profile-container">
-        <!-- HEADER MODULE -->
-        <header class="hud-header">
-            <div class="identity">
-                <h1>Hi 👋, I'm <span>Deaptayan Bondopadhay</span></h1>
-                <h3>Developer • Embedded Systems Enthusiast • Open Source Contributor</h3>
-                <p class="bio">
-                    Building software, firmware, and hardware projects with a focus on autonomous drones, CNC systems, robotics, IoT, and embedded automation ecosystems.
-                </p>
-            </div>
-            <div class="telemetry-status">
-                <div><span class="status-pulse"></span>SYS_STATUS: ACTIVE</div>
-                <div style="margin-top: 4px; color: var(--text-gray);">LOC: KOLKATA_IN</div>
-            </div>
-        </header>
+### Embedded & Hardware
 
-        <!-- MAIN DASHBOARD CONTENT -->
-        <main class="dashboard-grid">
-            
-            <!-- LEFT COLUMN: SYSTEM OVERVIEW & TOOLS -->
-            <div style="display: flex; flex-direction: column; gap: 15px;">
-                
-                <!-- ABOUT / CORE DATA -->
-                <section class="panel">
-                    <div class="panel-title"><span>[01] System Core</span> <span>BCA_UNIT</span></div>
-                    <ul class="panel-list">
-                        <li>🎓 <strong>BCA Student</strong> & Tech Innovator</li>
-                        <li>🤖 <strong>RedShift Robotic</strong> Leader</li>
-                        <li>🖨️ Enthusiastic about <strong>3D Printing</strong> & Hardware Architecture</li>
-                        <li>⚡ Fun Fact: College-famous for Competitive Line Following Robots.</li>
-                    </ul>
-                </section>
+<p>
+<img src="https://skillicons.dev/icons?i=arduino" />
+</p>
 
-                <!-- TECH MATRIX -->
-                <section class="panel">
-                    <div class="panel-title"><span>[02] Firmware & Software Stack</span> <span>ENV</span></div>
-                    <div style="margin-bottom: 8px; font-size: 0.75rem; color: var(--text-gray);">Core Environments:</div>
-                    <div class="tech-tags">
-                        <span class="tag">C++</span>
-                        <span class="tag">Python</span>
-                        <span class="tag">Embedded Systems</span>
-                        <span class="tag">CNC Software Dev</span>
-                    </div>
-                    <div style="margin: 10px 0 8px 0; font-size: 0.75rem; color: var(--text-gray);">Hardware Interfacing:</div>
-                    <div class="tech-tags">
-                        <span class="tag green">ESP32</span>
-                        <span class="tag green">STM32</span>
-                        <span class="tag green">ArduPilot</span>
-                        <span class="tag green">IoT / Automation</span>
-                    </div>
-                </section>
-            </div>
+* ESP32
+* STM32
+* Arduino
+* PlatformIO
+* ESP-IDF
 
-            <!-- RIGHT COLUMN: ACTIVE PROJECTS -->
-            <div style="display: flex; flex-direction: column; gap: 15px;">
-                <section class="panel" style="height: 100%;">
-                    <div class="panel-title"><span>[03] Project Operations</span> <span>LIVE_DEPLOYMENTS</span></div>
-                    
-                    <!-- PROJECT 1 -->
-                    <div class="project-card">
-                        <div class="project-title">
-                            <strong>🚁 Autonomous Drone Platform</strong>
-                            <span>ArduPilot Base</span>
-                        </div>
-                        <p class="project-desc">Custom autonomous drone architecture execution.</p>
-                        <ul class="panel-list" style="margin-top: 4px;">
-                            <li style="font-size: 0.7rem; margin-bottom: 2px;">Ported DeveBox STM32H743VIT6 board to ArduPilot</li>
-                            <li style="font-size: 0.7rem; margin-bottom: 2px;">Engineered dedicated custom hardware definitions</li>
-                        </ul>
-                    </div>
+### Development Tools
 
-                    <!-- PROJECT 2 -->
-                    <div class="project-card">
-                        <div class="project-title">
-                            <strong>⌖ PlotterNC Ecosystem</strong>
-                            <span>Open Source CAM</span>
-                        </div>
-                        <p class="project-desc">Developing PlotterNC Studio and PlotterNC firmware ecosystem optimized strictly for precise multi-axis CNC plotters.</p>
-                    </div>
+<p>
+<img src="https://skillicons.dev/icons?i=git,github,vscode,firebase" />
+</p>
 
-                    <!-- PROJECT 3 -->
-                    <div class="project-card">
-                        <div class="project-title">
-                            <strong>🏎️ Black Beauty & RedShift Tech</strong>
-                            <span>Robotics Competitive</span>
-                        </div>
-                        <p class="project-desc">Designing rapid, high-performance competitive Line Following Robots optimized for advanced speed and sensory precision tracing.</p>
-                    </div>
+### Areas of Interest
 
-                </section>
-            </div>
-        </main>
+* Embedded Systems
+* Autonomous Drones
+* Robotics
+* CNC & Motion Control
+* IoT Systems
+* 3D Printing
+* Open Source Software
 
-        <!-- FOOTER MODULE -->
-        <footer class="hud-footer">
-            <div>COMMS_LINK: <a href="mailto:deaptayanbondopadhay@gmail.com">deaptayanbondopadhay@gmail.com</a></div>
-            <div>© 2026 // DEAPTAYAN_BONDOPADHAY // GROUND_CONTROL_OK</div>
-        </footer>
-    </div>
+---
 
-</body>
-</html>
+## 🌐 Connect With Me
+
+<p align="left">
+<a href="https://linkedin.com/in/deaptayan-bondopadhay-685230366" target="_blank">
+<img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/linked-in-alt.svg" alt="linkedin" height="30" width="40" />
+</a>
+
+<a href="https://instagram.com/deaptayanbondopadhay" target="_blank">
+<img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/instagram.svg" alt="instagram" height="30" width="40" />
+</a>
+</p>
+
+---
+
+## 📊 GitHub Stats
+
+<p align="center">
+<img src="https://github-readme-stats.vercel.app/api?username=Deaptayan&show_icons=true&theme=default" />
+</p>
+
+<p align="center">
+<img src="https://github-readme-streak-stats.herokuapp.com/?user=Deaptayan" />
+</p>
+
+<p align="center">
+<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Deaptayan&layout=compact" />
+</p>
+
+---
+
+## 🎯 Goals
+
+* Release PlotterNC v1.0
+* Expand PlotterNC Studio with advanced CAM features
+* Complete autonomous drone development
+* Contribute to major open-source projects
+* Design and manufacture original hardware products
+* Continue learning advanced embedded systems and robotics
