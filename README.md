@@ -161,7 +161,7 @@ Open-source firmware for plotter CNC machines. Board-agnostic core with a hardwa
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0d1f38?style=flat-square&logo=linkedin&logoColor=38bdf8)](https://www.linkedin.com/in/deaptayan-bondopadhay-685230366)
 [![Instagram](https://img.shields.io/badge/Instagram-0d1f38?style=flat-square&logo=instagram&logoColor=e1306c)](https://www.instagram.com/deaptayanbondopadhay/)
-[![Gmail](https://img.shields.io/badge/Gmail-0d1f38?style=flat-square&logo=gmail&logoColor=4ade80)](mailto:deaptayanbondopadhay@gmail.com)
+[![email](https://img.shields.io/badge/email-0d1f38?style=flat-square&logo=gmail&logoColor=4ade80)](mailto:deaptayan@deaptayan.in)
 [![GitHub](https://img.shields.io/badge/github.com%2FDeaptayan-0d1f38?style=flat-square&logo=github&logoColor=94a3b8)](https://github.com/Deaptayan)
 ![visitors](https://visitor-badge.laobi.icu/badge?page_id=Deaptayan.Deaptayan&left_color=0d1f38&right_color=4ade80&left_text=views)
 
