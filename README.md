@@ -19,12 +19,10 @@
 # Personal
 name:   Deaptayan
         Bondopadhay
-degree: BCA Student
+degree: BCA 2nd Year
 locate: Kolkata, IN
-team:   Leader @
-        RedShift Robotic
-fun:    2nd @ EDGE26
-        Autonomous
+team:   Leader @RedShift Robotic
+fun:    2nd @ EDGE26 Autonomous
         Robotics
 ```
 
