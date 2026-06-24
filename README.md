@@ -12,9 +12,43 @@
 
 ### `> about_me`
 
-I'm a BCA student and self-taught developer from Kolkata, passionate about turning ideas into real hardware and software. I build across the full stack — from low-level firmware on STM32 and ESP32 microcontrollers, to desktop and web-based CAM software. My main focus areas are **autonomous drones**, **CNC systems**, **robotics**, and **IoT**. I've ported custom hardware to ArduPilot, developed open-source CNC firmware, and I'm currently building a web-based CAM tool for plotters. I'm also enthusiastic about **3D printing** and product development — I love the process of going from idea to a working physical thing.
+<table width="100%"><tr>
+<td width="33%" valign="top">
 
-Currently learning: `C++` · `Python` · `Embedded Systems` · `CNC Software Development`
+```yaml
+# Personal
+name:     Deaptayan Bondopadhay
+degree:   BCA Student
+location: Kolkata, IN
+contact:  gmail ↓
+```
+
+</td>
+<td width="33%" valign="top">
+
+```yaml
+# Interests
+- Autonomous Drones
+- CNC Systems
+- Robotics & IoT
+- 3D Printing
+- Product Dev
+```
+
+</td>
+<td width="34%" valign="top">
+
+```yaml
+# Learning
+- C++
+- Python
+- Embedded Systems
+- CNC Software Dev
+- Embedded Linux
+```
+
+</td>
+</tr></table>
 
 ---
 
@@ -23,7 +57,7 @@ Currently learning: `C++` · `Python` · `Embedded Systems` · `CNC Software Dev
 <table width="100%"><tr>
 <td width="33%" valign="top">
 
-**🚁 Autonomous Drone Platform**
+**🚁 [Autonomous Drone](https://github.com/Deaptayan/ardupilot)**
 
 Building a custom autonomous drone using **ArduPilot**. Had to port the **DevEBox STM32H743VIT6** board to ArduPilot from scratch with custom hardware definitions.
 
@@ -34,7 +68,7 @@ Building a custom autonomous drone using **ArduPilot**. Had to port the **DevEBo
 </td>
 <td width="33%" valign="top">
 
-**🚀 PlotterNC Studio**
+**🚀 [PlotterNC Studio](https://github.com/Deaptayan/PlotterNCStudio)**
 
 Web-based CAM and slicing software for CNC plotting machines — SVG import, toolpath generation, path optimization, G-code export and workspace preview.
 
@@ -44,7 +78,7 @@ Web-based CAM and slicing software for CNC plotting machines — SVG import, too
 </td>
 <td width="34%" valign="top">
 
-**🔩 PlotterNC**
+**🔩 [PlotterNC](https://github.com/Deaptayan/PlotterNC)**
 
 Open-source firmware for plotter CNC machines. Board-agnostic core with a hardware abstraction layer for multi-board support.
 
