@@ -62,7 +62,7 @@ email: deaptayan@
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0d1f38?style=flat-square&logo=linkedin&logoColor=38bdf8)](https://www.linkedin.com/in/deaptayan-bondopadhay-685230366)
 [![Instagram](https://img.shields.io/badge/Instagram-0d1f38?style=flat-square&logo=instagram&logoColor=e1306c)](https://www.instagram.com/deaptayanbondopadhay/)
-[![Gmail](https://img.shields.io/badge/Gmail-0d1f38?style=flat-square&logo=gmail&logoColor=4ade80)](mailto:deaptayanbondopadhay@gmail.com)
+[![email](https://img.shields.io/badge/Gmail-0d1f38?style=flat-square&logo=gmail&logoColor=4ade80)](mailto:deaptayan@deaptayan.in)
 
 </td>
 </tr></table>
