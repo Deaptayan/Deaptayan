@@ -21,6 +21,11 @@ name:   Deaptayan
         Bondopadhay
 degree: BCA Student
 locate: Kolkata, IN
+team:   Leader @
+        RedShift Robotic
+fun:    2nd @ EDGE26
+        Autonomous
+        Robotics
 ```
 
 </td>
@@ -31,6 +36,7 @@ locate: Kolkata, IN
 - Autonomous Drones
 - CNC Systems
 - Robotics & IoT
+- Line Following
 - 3D Printing
 - Product Dev
 ```
