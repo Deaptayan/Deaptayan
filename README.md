@@ -8,59 +8,48 @@
 ![BCA](https://img.shields.io/badge/BCA_Student-0d1f38?style=flat-square&logo=graduation-cap&logoColor=38bdf8)
 ![Location](https://img.shields.io/badge/Kolkata%2C_IN-0d1f38?style=flat-square&logoColor=94a3b8)
 
-> Building software, firmware & hardware — drones, CNC, robotics, IoT, embedded systems.
-
 ---
-
-<table width="100%"><tr>
-<td width="38%" valign="top">
 
 ### `> about_me`
 
-```yaml
-degree:   BCA Student
-learning:
-  - C++ · Python
-  - Embedded Systems
-  - CNC Software Dev
-interests:
-  - Drones · Robotics
-  - ESP32 · STM32 · IoT
-  - 3D Printing
-contact: gmail ↓
-```
+I'm a BCA student and self-taught developer from Kolkata, passionate about turning ideas into real hardware and software. I build across the full stack — from low-level firmware on STM32 and ESP32 microcontrollers, to desktop and web-based CAM software. My main focus areas are **autonomous drones**, **CNC systems**, **robotics**, and **IoT**. I've ported custom hardware to ArduPilot, developed open-source CNC firmware, and I'm currently building a web-based CAM tool for plotters. I'm also enthusiastic about **3D printing** and product development — I love the process of going from idea to a working physical thing.
 
-</td>
-<td width="62%" valign="top">
+Currently learning: `C++` · `Python` · `Embedded Systems` · `CNC Software Development`
+
+---
 
 ### `> current_projects`
 
-<table width="100%"><tr><td valign="top" width="50%">
+<table width="100%"><tr>
+<td width="33%" valign="top">
 
-**🚀 PlotterNC Studio** `CAM`
+**🚁 Autonomous Drone Platform**
 
-![](https://img.shields.io/badge/SVG_Import-done-4ade80?style=flat-square&labelColor=0d1f38)
-![](https://img.shields.io/badge/Toolpath_Gen-done-4ade80?style=flat-square&labelColor=0d1f38)
-![](https://img.shields.io/badge/Path_Optimize-done-4ade80?style=flat-square&labelColor=0d1f38)
-![](https://img.shields.io/badge/Gcode_Export-done-4ade80?style=flat-square&labelColor=0d1f38)
-![](https://img.shields.io/badge/WS_Preview-done-4ade80?style=flat-square&labelColor=0d1f38)
+Building a custom autonomous drone using **ArduPilot**. Had to port the **DevEBox STM32H743VIT6** board to ArduPilot from scratch with custom hardware definitions.
 
-**🔩 PlotterNC** `Firmware`
+![Status](https://img.shields.io/badge/Status-Active-4ade80?style=flat-square&labelColor=0d1f38)
+![ArduPilot](https://img.shields.io/badge/ArduPilot-0d1f38?style=flat-square&logo=arduino&logoColor=4ade80)
+![STM32](https://img.shields.io/badge/STM32H743-0d1f38?style=flat-square&logoColor=38bdf8)
 
-![](https://img.shields.io/badge/Firmware_Core-active-38bdf8?style=flat-square&labelColor=0d1f38)
-![](https://img.shields.io/badge/HAL-active-38bdf8?style=flat-square&labelColor=0d1f38)
-![](https://img.shields.io/badge/Multi--board-active-38bdf8?style=flat-square&labelColor=0d1f38)
+</td>
+<td width="33%" valign="top">
 
-</td><td valign="top" width="50%">
+**🚀 PlotterNC Studio**
 
-**🚁 Drone Platform** `ArduPilot · STM32H743`
+Web-based CAM and slicing software for CNC plotting machines — SVG import, toolpath generation, path optimization, G-code export and workspace preview.
 
-![](https://img.shields.io/badge/STM32H743_Port-done-4ade80?style=flat-square&labelColor=0d1f38)
-![](https://img.shields.io/badge/HW_Definitions-done-4ade80?style=flat-square&labelColor=0d1f38)
-![](https://img.shields.io/badge/Auto_Modes-wip-f97316?style=flat-square&labelColor=0d1f38)
-![](https://img.shields.io/badge/GCS_Integration-wip-f97316?style=flat-square&labelColor=0d1f38)
+![Status](https://img.shields.io/badge/Status-Active-4ade80?style=flat-square&labelColor=0d1f38)
+![Web](https://img.shields.io/badge/Web--Based_CAM-0d1f38?style=flat-square&logoColor=38bdf8)
 
-</td></tr></table>
+</td>
+<td width="34%" valign="top">
+
+**🔩 PlotterNC**
+
+Open-source firmware for plotter CNC machines. Board-agnostic core with a hardware abstraction layer for multi-board support.
+
+![Status](https://img.shields.io/badge/Status-Active-4ade80?style=flat-square&labelColor=0d1f38)
+![Firmware](https://img.shields.io/badge/CNC_Firmware-0d1f38?style=flat-square&logoColor=38bdf8)
 
 </td>
 </tr></table>
@@ -69,6 +58,11 @@ contact: gmail ↓
 
 ### `> tech_stack`
 
+<table width="100%"><tr>
+<td width="50%" valign="top">
+
+**Hardware & Embedded**
+
 ![C++](https://img.shields.io/badge/C++-0d1f38?style=flat-square&logo=cplusplus&logoColor=38bdf8)
 ![C](https://img.shields.io/badge/C-0d1f38?style=flat-square&logo=c&logoColor=38bdf8)
 ![STM32](https://img.shields.io/badge/STM32-0d1f38?style=flat-square&logo=stmicroelectronics&logoColor=4ade80)
@@ -76,12 +70,24 @@ contact: gmail ↓
 ![ArduPilot](https://img.shields.io/badge/ArduPilot-0d1f38?style=flat-square&logo=arduino&logoColor=4ade80)
 ![FreeRTOS](https://img.shields.io/badge/FreeRTOS-0d1f38?style=flat-square&logoColor=94a3b8)
 ![MAVLink](https://img.shields.io/badge/MAVLink-0d1f38?style=flat-square&logoColor=38bdf8)
-![Python](https://img.shields.io/badge/Python-0d1f38?style=flat-square&logo=python&logoColor=4ade80)
 ![KiCad](https://img.shields.io/badge/KiCad-0d1f38?style=flat-square&logo=kicad&logoColor=4ade80)
+![3D Printing](https://img.shields.io/badge/3D_Printing-0d1f38?style=flat-square&logoColor=38bdf8)
+
+</td>
+<td width="50%" valign="top">
+
+**Software & Tools**
+
+![Python](https://img.shields.io/badge/Python-0d1f38?style=flat-square&logo=python&logoColor=4ade80)
+![JavaScript](https://img.shields.io/badge/JavaScript-0d1f38?style=flat-square&logo=javascript&logoColor=f7df1e)
 ![Git](https://img.shields.io/badge/Git-0d1f38?style=flat-square&logo=git&logoColor=f97316)
 ![Linux](https://img.shields.io/badge/Linux-0d1f38?style=flat-square&logo=linux&logoColor=94a3b8)
 ![VSCode](https://img.shields.io/badge/VS_Code-0d1f38?style=flat-square&logo=visualstudiocode&logoColor=38bdf8)
-![3D Printing](https://img.shields.io/badge/3D_Printing-0d1f38?style=flat-square&logoColor=38bdf8)
+![IoT](https://img.shields.io/badge/IoT-0d1f38?style=flat-square&logoColor=4ade80)
+![Automation](https://img.shields.io/badge/Automation-0d1f38?style=flat-square&logoColor=38bdf8)
+
+</td>
+</tr></table>
 
 ---
 
