@@ -56,7 +56,8 @@ fun:    2nd @ EDGE26 Autonomous
 
 ```yaml
 # Contact
-gmail: deaptayan@deaptayan.in
+email: deaptayan@
+       deaptayan.in
 ```
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0d1f38?style=flat-square&logo=linkedin&logoColor=38bdf8)](https://www.linkedin.com/in/deaptayan-bondopadhay-685230366)
