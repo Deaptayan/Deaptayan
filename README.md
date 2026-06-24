@@ -35,37 +35,32 @@ contact: gmail ↓
 
 ### `> current_projects`
 
-<table width="100%"><tr>
-<td valign="top">
+<table width="100%"><tr><td valign="top" width="50%">
 
 **🚀 PlotterNC Studio** `CAM`
-| Feature | |
-|---------|--|
-| SVG Import | ✅ |
-| Toolpath Gen | ✅ |
-| Path Optimize | ✅ |
-| G-code Export | ✅ |
-| Preview | ✅ |
 
-</td>
-<td valign="top">
+![](https://img.shields.io/badge/SVG_Import-done-4ade80?style=flat-square&labelColor=0d1f38)
+![](https://img.shields.io/badge/Toolpath_Gen-done-4ade80?style=flat-square&labelColor=0d1f38)
+![](https://img.shields.io/badge/Path_Optimize-done-4ade80?style=flat-square&labelColor=0d1f38)
+![](https://img.shields.io/badge/Gcode_Export-done-4ade80?style=flat-square&labelColor=0d1f38)
+![](https://img.shields.io/badge/WS_Preview-done-4ade80?style=flat-square&labelColor=0d1f38)
 
 **🔩 PlotterNC** `Firmware`
-| Component | |
-|-----------|--|
-| Core | 🔄 |
-| HAL | 🔄 |
-| Multi-board | 🔄 |
 
-**🚁 Drone** `ArduPilot`
-| Milestone | |
-|-----------|--|
-| STM32H743 Port | ✅ |
-| HW Definitions | ✅ |
-| Auto Modes | 🔄 |
+![](https://img.shields.io/badge/Firmware_Core-active-38bdf8?style=flat-square&labelColor=0d1f38)
+![](https://img.shields.io/badge/HAL-active-38bdf8?style=flat-square&labelColor=0d1f38)
+![](https://img.shields.io/badge/Multi--board-active-38bdf8?style=flat-square&labelColor=0d1f38)
 
-</td>
-</tr></table>
+</td><td valign="top" width="50%">
+
+**🚁 Drone Platform** `ArduPilot · STM32H743`
+
+![](https://img.shields.io/badge/STM32H743_Port-done-4ade80?style=flat-square&labelColor=0d1f38)
+![](https://img.shields.io/badge/HW_Definitions-done-4ade80?style=flat-square&labelColor=0d1f38)
+![](https://img.shields.io/badge/Auto_Modes-wip-f97316?style=flat-square&labelColor=0d1f38)
+![](https://img.shields.io/badge/GCS_Integration-wip-f97316?style=flat-square&labelColor=0d1f38)
+
+</td></tr></table>
 
 </td>
 </tr></table>
