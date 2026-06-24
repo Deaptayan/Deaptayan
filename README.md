@@ -34,9 +34,12 @@ contact:  "deaptayanbondopadhay@gmail.com"
 
 ### `> current_projects`
 
+<table width="100%"><tr>
+<td width="50%" valign="top">
+
 **🚀 PlotterNC Studio** — `Open-Source CAM Software`
 
-> Designed for pen plotters and lightweight CNC machines.
+> For pen plotters & lightweight CNC machines.
 
 | Feature | Status |
 |---------|--------|
@@ -46,13 +49,21 @@ contact:  "deaptayanbondopadhay@gmail.com"
 | G-code Export | ✅ Done |
 | Workspace Preview | ✅ Done |
 
+</td>
+<td width="50%" valign="top">
+
 **🔩 PlotterNC** — `CNC Firmware · Open Source`
+
+> Board-agnostic firmware core for CNC plotters.
 
 | Component | Status |
 |-----------|--------|
-| PlotterNC Firmware core | 🔄 Active |
+| Firmware Core | 🔄 Active |
 | Hardware Abstraction Layer | 🔄 Active |
-| Multi-board support | 🔄 Active |
+| Multi-board Support | 🔄 Active |
+
+</td>
+</tr></table>
 
 **🚁 Autonomous Drone Platform** — `ArduPilot · STM32H743VIT6`
 
@@ -96,10 +107,18 @@ contact:  "deaptayanbondopadhay@gmail.com"
 
 ### `> github_activity`
 
-![Activity Graph](https://github-readme-activity-graph.vercel.app/graph?username=Deaptayan&bg_color=080d14&color=38bdf8&line=4ade80&point=4ade80&area=true&area_color=0d1f38&hide_border=true&radius=6)
+<table width="100%"><tr>
+<td width="55%" valign="top">
 
 ![GitHub Stats](https://github-readme-stats.vercel.app/api?username=Deaptayan&show_icons=true&theme=transparent&title_color=38bdf8&icon_color=4ade80&text_color=94a3b8&border_color=1e3a5f&rank_icon=github&count_private=true)
-![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=Deaptayan&layout=compact&theme=transparent&title_color=38bdf8&text_color=94a3b8&border_color=1e3a5f)
+
+</td>
+<td width="45%" valign="top">
+
+![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=Deaptayan&layout=compact&theme=transparent&title_color=38bdf8&text_color=94a3b8&border_color=1e3a5f&langs_count=5)
+
+</td>
+</tr></table>
 
 ---
 
