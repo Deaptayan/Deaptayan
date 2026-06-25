@@ -19,10 +19,12 @@
 # Personal
 name:   Deaptayan
         Bondopadhay
-degree: BCA 2nd Year
+degree: BCA Student
 locate: Kolkata, IN
-team:   Leader @RedShift Robotic
-fun:    2nd @ EDGE26 Autonomous
+team:   Leader @
+        RedShift Robotic
+fun:    2nd @ EDGE26
+        Autonomous
         Robotics
 ```
 
@@ -56,13 +58,15 @@ fun:    2nd @ EDGE26 Autonomous
 
 ```yaml
 # Contact
-email: deaptayan@
-       deaptayan.in
+email:   contact@
+         deaptayan.in
+website: deaptayan.in
 ```
 
+[![Website](https://img.shields.io/badge/deaptayan.in-0d1f38?style=flat-square&logo=firefoxbrowser&logoColor=38bdf8)](https://deaptayan.in)
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0d1f38?style=flat-square&logo=linkedin&logoColor=38bdf8)](https://www.linkedin.com/in/deaptayan-bondopadhay-685230366)
 [![Instagram](https://img.shields.io/badge/Instagram-0d1f38?style=flat-square&logo=instagram&logoColor=e1306c)](https://www.instagram.com/deaptayanbondopadhay/)
-[![email](https://img.shields.io/badge/email-0d1f38?style=flat-square&logo=gmail&logoColor=4ade80)](mailto:deaptayan@deaptayan.in)
+[![Email](https://img.shields.io/badge/Email-0d1f38?style=flat-square&logo=gmail&logoColor=4ade80)](mailto:contact@deaptayan.in)
 
 </td>
 </tr></table>
@@ -72,35 +76,45 @@ email: deaptayan@
 ### `> current_projects`
 
 <table width="100%"><tr>
-<td width="33%" valign="top">
+<td width="25%" valign="top">
 
 **🚁 [Autonomous Drone](https://github.com/Deaptayan/ardupilot)**
 
-Building a custom autonomous drone using **ArduPilot**. Had to port the **DevEBox STM32H743VIT6** board to ArduPilot from scratch with custom hardware definitions.
+Custom autonomous drone using **ArduPilot**, with a ported **DevEBox STM32H743VIT6** board and custom hardware definitions.
 
 ![Status](https://img.shields.io/badge/Status-Active-4ade80?style=flat-square&labelColor=0d1f38)
 ![ArduPilot](https://img.shields.io/badge/ArduPilot-0d1f38?style=flat-square&logo=arduino&logoColor=4ade80)
 ![STM32](https://img.shields.io/badge/STM32H743-0d1f38?style=flat-square&logoColor=38bdf8)
 
 </td>
-<td width="33%" valign="top">
+<td width="25%" valign="top">
 
 **🚀 [PlotterNC Studio](https://github.com/Deaptayan/PlotterNCStudio)**
 
-Web-based CAM and slicing software for CNC plotting machines — SVG import, toolpath generation, path optimization, G-code export and workspace preview.
+Web-based CAM and slicing software for CNC plotting machines — toolpath gen, G-code export & workspace preview.
 
 ![Status](https://img.shields.io/badge/Status-Active-4ade80?style=flat-square&labelColor=0d1f38)
 ![Web](https://img.shields.io/badge/Web--Based_CAM-0d1f38?style=flat-square&logoColor=38bdf8)
 
 </td>
-<td width="34%" valign="top">
+<td width="25%" valign="top">
 
 **🔩 [PlotterNC](https://github.com/Deaptayan/PlotterNC)**
 
-Open-source firmware for plotter CNC machines. Board-agnostic core with a hardware abstraction layer for multi-board support.
+Open-source plotter CNC firmware with a board-agnostic core and hardware abstraction layer for multi-board support.
 
 ![Status](https://img.shields.io/badge/Status-Active-4ade80?style=flat-square&labelColor=0d1f38)
 ![Firmware](https://img.shields.io/badge/CNC_Firmware-0d1f38?style=flat-square&logoColor=38bdf8)
+
+</td>
+<td width="25%" valign="top">
+
+**📐 [Web Caliper](https://webcaliper.deaptayan.in)**
+
+Browser-based precision measurement tool — a digital caliper that runs entirely in the web with no install needed.
+
+![Status](https://img.shields.io/badge/Status-Active-4ade80?style=flat-square&labelColor=0d1f38)
+![Web](https://img.shields.io/badge/Web_Tool-0d1f38?style=flat-square&logoColor=38bdf8)
 
 </td>
 </tr></table>
@@ -159,9 +173,10 @@ Open-source firmware for plotter CNC machines. Board-agnostic core with a hardwa
 
 ---
 
+[![Website](https://img.shields.io/badge/deaptayan.in-0d1f38?style=flat-square&logo=firefoxbrowser&logoColor=38bdf8)](https://deaptayan.in)
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0d1f38?style=flat-square&logo=linkedin&logoColor=38bdf8)](https://www.linkedin.com/in/deaptayan-bondopadhay-685230366)
 [![Instagram](https://img.shields.io/badge/Instagram-0d1f38?style=flat-square&logo=instagram&logoColor=e1306c)](https://www.instagram.com/deaptayanbondopadhay/)
-[![email](https://img.shields.io/badge/email-0d1f38?style=flat-square&logo=gmail&logoColor=4ade80)](mailto:deaptayan@deaptayan.in)
+[![Email](https://img.shields.io/badge/Email-0d1f38?style=flat-square&logo=gmail&logoColor=4ade80)](mailto:contact@deaptayan.in)
 [![GitHub](https://img.shields.io/badge/github.com%2FDeaptayan-0d1f38?style=flat-square&logo=github&logoColor=94a3b8)](https://github.com/Deaptayan)
 ![visitors](https://visitor-badge.laobi.icu/badge?page_id=Deaptayan.Deaptayan&left_color=0d1f38&right_color=4ade80&left_text=views)
 
